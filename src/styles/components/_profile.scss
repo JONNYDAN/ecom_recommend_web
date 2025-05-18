@@ -1,0 +1,11 @@
+.profile-container {
+  width: 400px;
+  max-width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: auto;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 20px;
+}

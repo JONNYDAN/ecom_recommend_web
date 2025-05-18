@@ -1,0 +1,21 @@
+{
+  "do_you_want_to_submit": "Bạn có muốn tiếp tục và gửi bài kiểm tra của mình không?",
+  "skip_and_submit": "Bạn có muốn bỏ qua {{count}} câu hỏi và nộp bài kiểm tra của mình không?",
+  "skip_and_submit_plural": "Bạn có muốn bỏ qua {{count}} câu hỏi và nộp bài kiểm tra của mình không?",
+  "notice": "Để ý",
+  "view_all_questions": "Xem tất cả câu hỏi",
+  "show_answer": "Hiển thị câu trả lời",
+  "previous": "Câu trước",
+  "submit": "Nộp",
+  "next": "Câu sau",
+  "review_your_answers": "Xem lại câu trả lời của bạn",
+  "choose_the_mode": "Vui lòng chọn chế độ cho bài kiểm tra của bạn:",
+  "practice_mode": "Chế độ luyện tập",
+  "time_is_not_limited": "Thời gian không bị giới hạn.",
+  "can_check_answers": "Bạn có thể kiểm tra câu trả lời của mình và xem giải thích trong kỳ thi.",
+  "no_need_to_submit": "Không cần phải nộp.",
+  "strict_mode": "Giả lập bài thi thật",
+  "limit_time": "Hoàn thành bài thi trong thời gian quy định.",
+  "can_not_check_answers": "Không kiểm tra được câu trả lời trong quá trình làm bài",
+  "results_will_be_recorded": "Kết quả sẽ được ghi lại và cung cấp sau khi bạn nộp bài thi."
+}

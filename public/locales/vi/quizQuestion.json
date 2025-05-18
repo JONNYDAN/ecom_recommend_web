@@ -1,0 +1,13 @@
+{
+  "question": "Câu hỏi",
+  "unknown_format": "Định dạng không xác định!",
+  "explaination": "Giải thích",
+  "correct": "Đúng",
+  "incorrect": "Sai",
+  "answers": "Câu trả lời",
+  "drag_your_selection_here": "Kéo lựa chọn của bạn vào đây",
+  "rearrange_answers_in_the_correct_order": "Sắp xếp lại câu trả lời theo đúng thứ tự",
+  "time_left": "Thời gian còn lại",
+  "your_selected_answers": "Câu trả lời bạn đã chọn",
+  "drag_your_selections_here": "Kéo lựa chọn của bạn vào đây"
+}

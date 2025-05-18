@@ -1,0 +1,13 @@
+{
+  "meta_title": "Verify email - BAOOStore JSC Academy",
+  "heading": "Active your email:",
+  "your_emal": "Your emal",
+  "enter_your_email": "Enter your email",
+  "request_after": "You can request to send the email again after",
+  "reset_tutorial": "Please check your email and click on the verification link to complete the process.",
+  "some_errors_occured": "Some errors occured. Please try again!",
+  "email_verified_heading": "Your email is verified!",
+  "be_redirected_message": "You will be redirected to sign in page in",
+  "mannual_login_message": "to log in if you are not redirected to the sign-in page automatically.",
+  "verifying": "Verifying..."
+}

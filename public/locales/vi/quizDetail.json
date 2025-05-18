@@ -1,0 +1,20 @@
+{
+  "passed": "Đậu",
+  "failed": "Rớt",
+  "questions": "Câu hỏi",
+  "minutes": "Phút",
+  "passing_score": "Điểm đậu:",
+  "review": "Xem lại",
+  "unlock_quizzes": "Mở khóa các câu đố khi mua khóa học:",
+  "purchase_to_access": "Để truy cập bài kiểm tra này, vui lòng mua khóa học tương ứng để mở khóa tất cả nội dung của nó. Khám phá thư viện khóa học của chúng tôi và mua hàng",
+  "here": "tại đây",
+  "have_not_taken_tests": "Bạn chưa thực hiện bất kỳ bài kiểm tra nào.",
+  "try_the_test_now": "Hãy thử kiểm tra ngay bây giờ!",
+  "submission_time": "Thời gian nộp hồ sơ",
+  "score": "Điểm",
+  "result": "Kết quả",
+  "detail": "Chi tiết",
+  "your_test_histories": "Lịch sử kiểm tra của bạn",
+  "take_the_test": "Làm bài kiểm tra",
+  "purchase_now": "Mua ngay"
+}

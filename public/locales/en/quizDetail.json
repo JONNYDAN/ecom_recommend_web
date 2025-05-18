@@ -1,0 +1,20 @@
+{
+  "passed": "Passed",
+  "failed": "Failed",
+  "questions": "Questions",
+  "minutes": "Minutes",
+  "passing_score": "Passing score:",
+  "review": "Review",
+  "unlock_quizzes": "Unlock Quizzes with Course Purchase:",
+  "purchase_to_access": "To access this quiz, please purchase the corresponding course to unlock all its content. Explore our course library and make your purchase",
+  "here": "here",
+  "have_not_taken_tests": "You haven't taken any tests yet.",
+  "try_the_test_now": "Try the test now!",
+  "submission_time": "Submission time",
+  "score": "Score",
+  "result": "Result",
+  "detail": "Detail",
+  "your_test_histories": "Your test histories",
+  "take_the_test": "Take the test",
+  "purchase_now": "Purchase now"
+}

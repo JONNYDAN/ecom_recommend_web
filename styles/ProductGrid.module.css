@@ -1,0 +1,21 @@
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 products per row on mobile */
+  gap: 16px;
+}
+
+/* Tablet and above */
+@media (min-width: 768px) {
+  .productGrid {
+    grid-template-columns: repeat(5, 1fr); /* 5 products per row */
+  }
+}
+
+.productCard {
+  transition: all 0.3s ease;
+}
+
+.productCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}

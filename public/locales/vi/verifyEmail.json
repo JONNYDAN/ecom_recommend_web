@@ -1,0 +1,13 @@
+{
+  "meta_title": "Xác minh email - Học viện BAOOStore JSC",
+  "heading": "Kích hoạt email của bạn:",
+  "your_emal": "Email của bạn",
+  "enter_your_email": "Nhập email của bạn",
+  "request_after": "Bạn có thể yêu cầu gửi lại email sau",
+  "reset_tutorial": "Vui lòng kiểm tra email của bạn và nhấp vào liên kết xác minh để hoàn tất quá trình.",
+  "some_errors_occured": "Một số lỗi đã xảy ra. Vui lòng thử lại!",
+  "email_verified_heading": "Email của bạn đã được xác minh!",
+  "be_redirected_message": "Bạn sẽ được chuyển hướng đến trang đăng nhập trong",
+  "mannual_login_message": "để đăng nhập nếu bạn không được tự động chuyển hướng đến trang đăng nhập.",
+  "verifying": "Đang xác minh..."
+}

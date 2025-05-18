@@ -1,0 +1,62 @@
+/**
+* Icon
+**/
+
+.rs-btn-start-icon,
+.rs-btn-end-icon {
+  display: inline-block;
+  line-height: 1;
+}
+
+.rs-sidenav-item {
+  .rs-sidenav-item-icon {
+    margin-top: 3px;
+  }
+}
+
+/**
+* Carousel
+**/
+.custom-carousel-container {
+  position: relative;
+
+  .rs-carousel {
+    height: unset;
+    padding: 20px 0;
+  }
+
+  .rs-carousel-slider-item {
+    background-color: transparent;
+  }
+
+  .review-set-items {
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    padding: 20px 10px;
+  }
+
+  .rs-carousel-toolbar {
+    bottom: 0;
+  }
+
+  .rs-carousel-label {
+    background-color: #0d6dfd68;
+    &:hover {
+      background-color: #0d6dfdb4;
+    }
+  }
+
+  .carousel-action-button {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    opacity: 0.8;
+
+    &.right {
+      right: 0;
+      left: unset;
+    }
+  }
+}

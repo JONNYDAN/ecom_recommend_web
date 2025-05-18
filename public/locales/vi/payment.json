@@ -1,0 +1,18 @@
+{
+  "meta_title": "Thanh toán - Học viện BAOOStore JSC",
+  "product_information": "Thông tin sản phẩm",
+  "course": "Khóa học",
+  "source": "Mã nguồn",
+  "courses": "các khóa học",
+  "sources": "mã nguồn",
+  "apply_voucher": "Áp dụng mã giảm giá",
+  "enter_your_voucher": "Nhập mã giảm giá",
+  "payment_method": "Phương thức thanh toán",
+  "vietqr_internet_banking": "VietQR - Thanh toán trực tuyến",
+  "total": "Tổng cộng",
+  "payment_tutorial_message": "Bạn sẽ được chuyển tới trang thanh toán của VietQR. Vui lòng không đóng tab này cho đến khi quá trình hoàn tất!",
+  "click_link_to_pay_mannually": "Vui lòng <0>nhấp vào liên kết này</0> để truy cập trang thanh toán nếu bạn không được chuyển hướng tự động",
+  "some_errors_occured": "Một số lỗi đã xảy ra. Hãy tải lại trang và thử lại!",
+  "confirmation": "Xác nhận",
+  "payment": "Thanh toán"
+}

@@ -1,0 +1,13 @@
+{
+  "question": "Question",
+  "unknown_format": "Unknown format!",
+  "explaination": "Explaination",
+  "correct": "Correct",
+  "incorrect": "Incorrect",
+  "answers": "Answers",
+  "drag_your_selection_here": "Drag your selection here",
+  "rearrange_answers_in_the_correct_order": "Rearrange answers in the correct order",
+  "time_left": "Time left",
+  "your_selected_answers": "Your selected answers",
+  "drag_your_selections_here": "Drag your selections here"
+}

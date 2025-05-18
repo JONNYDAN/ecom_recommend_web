@@ -1,0 +1,149 @@
+.course-checklist {
+  max-height: 200px;
+  overflow: auto;
+}
+
+.course-filter-container {
+  & > div {
+    box-shadow: none;
+    border: none !important;
+  }
+}
+
+.payment-confirm-container {
+  display: flex;
+  width: 400px;
+  border-radius: 4px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-course-container {
+  max-width: 1024px;
+  margin: auto;
+
+  .my-course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 32px;
+
+    .card-items {
+      display: "inline-block";
+      width: 280px;
+    }
+
+    &::after {
+      content: "";
+      width: 280px;
+    }
+  }
+
+  .my-course-thumbnail {
+    width: 280px !important;
+    height: 158px !important;
+    object-fit: cover;
+  }
+}
+
+.card-list-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.my-courses-container {
+  .purchased-courses-button,
+  .enrolled-courses-button {
+    border-radius: 0;
+    transition: 0.3s;
+
+    &.active {
+      color: var(--rs-primary-500);
+      box-shadow: inset 0 -2px 0px 0px var(--rs-primary-500);
+    }
+  }
+}
+
+.course-detail-header {
+  .course-detail-thumbnail {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px;
+    border: 3px #fff solid;
+    margin-bottom: 20px;
+  }
+}
+
+.price-card-detail-container {
+  display: flex;
+  justify-content: center;
+
+  .price-card-detail {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .buy-button {
+    border: 2px solid #fff;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .card-list-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .my-course-container {
+    .my-course-list {
+      justify-content: center;
+    }
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .card-list-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .payment-confirm-container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .card-list-grid {
+    gap: 24px;
+  }
+
+  .course-detail-header {
+    $thumbnail-width: 320px;
+    display: grid;
+    grid-template-columns: $thumbnail-width 1fr;
+    gap: 30px;
+    align-items: center;
+    .course-detail-thumbnail {
+      width: $thumbnail-width !important;
+      height: auto !important;
+      margin-bottom: 0;
+    }
+  }
+
+  .price-card-detail-container {
+    display: block;
+    padding-left: 40px;
+
+    .price-card-detail {
+      position: sticky;
+      top: 100px;
+    }
+  }
+}

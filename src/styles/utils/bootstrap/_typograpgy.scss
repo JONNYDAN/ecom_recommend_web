@@ -1,0 +1,83 @@
+.text-justify {
+  text-align: justify;
+}
+
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-shadow-dark {
+  text-shadow: #00000080 0 0 5px;
+}
+
+.text-truncate-container {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--lines);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.text-color-inherit {
+  color: inherit;
+}
+
+.text-link {
+  color: var(--rs-btn-primary-bg);
+}
+
+// keep text in an element displayed in one line (Does not break words)
+.text-together {
+  white-space: nowrap;
+}
+
+.text-normal {
+  color: inherit;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-size": (
+      property: font-size,
+      responsive: true,
+      class: text,
+      values: (
+        10: 10px,
+        12: 12px,
+        14: 14px,
+        16: 16px,
+        18: 18px,
+        20: 20px,
+        24: 24px,
+      ),
+    ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "font-weight": (
+      property: font-weight,
+      class: fw,
+      values: (
+        300: 300,
+        400: 400,
+        500: 500,
+        600: 600,
+        700: 700,
+      ),
+    ),
+  )
+);

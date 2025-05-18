@@ -1,0 +1,21 @@
+{
+  "do_you_want_to_submit": "Do you want to proceed and submit your exam?",
+  "skip_and_submit": "Do you want to skip {{count}} question and submit your exam?",
+  "skip_and_submit_plural": "Do you want to skip {{count}} questions and submit your exam?",
+  "notice": "Notice",
+  "view_all_questions": "View all questions",
+  "show_answer": "Show Answer",
+  "previous": "Previous",
+  "submit": "Submit",
+  "next": "Next",
+  "review_your_answers": "Review your answers",
+  "choose_the_mode": "Please choose the mode for your test:",
+  "practice_mode": "Practice mode",
+  "time_is_not_limited": "Time is not limited.",
+  "can_check_answers": "You can check your answers and view explanations during the exam.",
+  "no_need_to_submit": "No need to submit.",
+  "strict_mode": "Strict (like a real exam)",
+  "limit_time": "Complete the exam within the allotted time.",
+  "can_not_check_answers": "Answers can not be checked during the exam.",
+  "results_will_be_recorded": "Results will be recorded and provided after you submit the exam."
+}

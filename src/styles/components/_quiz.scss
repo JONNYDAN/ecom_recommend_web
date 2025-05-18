@@ -1,0 +1,39 @@
+.quiz-pagination-button {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+
+.answer-draggable {
+  margin-bottom: 20px;
+  padding: 16px 8px;
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  gap: 4px;
+  grid-template-columns: 20px 20px 1fr;
+}
+
+.droppable-container {
+  min-height: 100px;
+  padding: 20px 20px 1px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  border: 3px var(--rs-gray-500) dashed;
+
+  &.selected-list {
+    border: 3px var(--rs-state-info) dashed;
+  }
+
+  &.one-selection-box {
+    @extend .selected-list;
+
+    min-height: 80px;
+    padding: 20px;
+    border-radius: 10px;
+
+    .answer-draggable {
+      margin-bottom: 0;
+    }
+  }
+}

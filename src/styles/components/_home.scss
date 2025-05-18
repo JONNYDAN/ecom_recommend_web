@@ -1,0 +1,40 @@
+.intro-section {
+  .intro-img {
+    width: 500px !important;
+    height: auto !important;
+    max-width: 100%;
+  }
+}
+
+.trending-category-section {
+  .category-item {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      .category-image {
+        & > :first-child {
+          opacity: 0.9;
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+  .category-image {
+    padding: 16px;
+    border-radius: 16px;
+
+    & > :first-child {
+      transition: all 0.2s;
+    }
+  }
+}
+
+.feedback-card-container {
+  .review-content {
+    max-height: 200px;
+    overflow: auto;
+  }
+}

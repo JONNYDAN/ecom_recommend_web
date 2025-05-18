@@ -1,0 +1,42 @@
+.source-detail-page-container {
+  .source-hero-image {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 5px;
+  }
+}
+
+.image-smaller img{
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.image-smaller figure{
+ text-align: center;
+}
+
+@media (min-width: 768px) {
+  .nav-text {
+    display: inline;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-text {
+    display: none; 
+  }
+  
+  .nav-item {
+    flex: 1; 
+    text-align: center; 
+  }
+  .form-change-pass{
+    flex-direction: column;
+  }
+}
+
+.form-change-pass{
+  display: flex;
+}
+

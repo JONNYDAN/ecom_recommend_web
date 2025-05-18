@@ -1,0 +1,67 @@
+.contact-now {
+  padding: 50px 0px;
+  background: linear-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#e0f8ff),
+    to(#fff0e5)
+  );
+  background: linear-gradient(to bottom, #e0f8ff 0%, #fff0e5 100%);
+  .common-text-red {
+    color: #e60072;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 15px;
+    display: block;
+  }
+
+  .common-text-blue {
+    color: #2b3990;
+    font-weight: 600;
+  }
+
+  .phone-info {
+    font-size: 18px;
+    color: #6a6a8e;
+  }
+}
+
+.project-card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+.image-demo-our-work{
+  border:1px solid whitesmoke;
+}
+
+.image-demo-our-work:hover{
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.project-carouse-item {
+  max-width: 360px;
+}
+
+@include media-breakpoint-up(sm) {
+  .project-carouse-item {
+    max-width: 420px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .project-carouse-item {
+    max-width: 480px;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .project-carouse-item {
+    max-width: 560px;
+  }
+}

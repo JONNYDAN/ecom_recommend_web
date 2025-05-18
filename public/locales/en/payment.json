@@ -1,0 +1,18 @@
+{
+  "meta_title": "Payment - BAOOStore JSC Academy",
+  "product_information": "Product information",
+  "course": "Course",
+  "source": "Source",
+  "courses": "courses",
+  "sources": "sources",
+  "apply_voucher": "Apply voucher",
+  "enter_your_voucher": "Enter your voucher",
+  "payment_method": "Payment method",
+  "vietqr_internet_banking": "VietQR - Internet banking",
+  "total": "Total",
+  "payment_tutorial_message": "You will be redirected to payment page of VietQR. Please do not close this tab until the process is completed!",
+  "click_link_to_pay_mannually": "Please <0>click this link</0> to access payment page if you are not redirected automatically",
+  "some_errors_occured": "Some errors occured. Please reload the page and try again!",
+  "confirmation": "Confirmation",
+  "payment": "Payment"
+}

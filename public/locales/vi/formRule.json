@@ -1,0 +1,11 @@
+{
+  "name_maxlen_rule": "Tối đa chỉ có 30 ký tự.",
+  "require_field_message": "Trường này là bắt buộc.",
+  "invalid_email_message": "Vui lòng nhập địa chỉ email hợp lệ.",
+  "min_8_character": "Yêu cầu tối thiểu 8 ký tự",
+  "uppercase_rule": "Phải chứa ký tự viết hoa",
+  "lowercase_rule": "Phải chứa ký tự chữ thường",
+  "password_not_match": "Hai mật khẩu không khớp",
+  "invalid_phone_message": "Phải là số điện thoại hợp lệ",
+  "maximum_count_character": "Tối đa chỉ có {{count}} ký tự."
+}

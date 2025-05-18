@@ -1,0 +1,5 @@
+- please use react-icons/md for generate icon, for example:
+    - import { MdStart, MdShield, MdHeadphones, MdAttachMoney } from "react-icons/md";
+- just use UI component from rsuite
+    - for example: import { Button, Col, Form, InputGroup, Nav, Row, Schema, Table, DatePicker, Pagination, FlexboxGrid, Divider, Avatar, Grid  } from "rsuite";
+- trying to dont generate manual style css code, using rsuite

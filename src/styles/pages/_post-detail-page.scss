@@ -1,0 +1,52 @@
+
+.custom-active-nav-item {
+    color: #7c0fd1!important;
+}
+
+.custom-active-nav-item:before {
+    background-color: #7c0fd1!important;
+    content: "";
+}
+
+.custom-active-nav-item:hover {
+  color: #7c0fd1!important;
+}
+
+.related-post {
+    background: linear-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#e0f8ff),
+      to(#fff0e5)
+    );
+    background: linear-gradient(to bottom, #e0f8ff 0%, #fff0e5 100%);
+}
+
+
+.my-post-container {
+
+    margin: auto;
+  
+    .my-post-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      gap: 32px;
+  
+      .card-items {
+        display: "inline-block";
+        width: 280px;
+      }
+  
+      &::after {
+        content: "";
+        width: 280px;
+      }
+    }
+    .my-post-thumbnail {
+        width: 280px !important;
+        height: 158px !important;
+        object-fit: cover;
+      }
+}

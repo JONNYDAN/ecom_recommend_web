@@ -1,0 +1,27 @@
+.w-fit-content {
+  width: fit-content;
+}
+
+.scrollbar-thin {
+  /* width */
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #888888a2;
+    border-radius: 4px;
+    transition: 0.2s;
+  }
+
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
+}

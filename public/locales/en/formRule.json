@@ -1,0 +1,11 @@
+{
+  "name_maxlen_rule": "The maximum is only 30 characters.",
+  "require_field_message": "This field is required.",
+  "invalid_email_message": "Please enter a valid email address.",
+  "min_8_character": "Minimum 8 characters required",
+  "uppercase_rule": "Must contain uppercase characters",
+  "lowercase_rule": "Must contain lowercase characters",
+  "password_not_match": "The two passwords do not match",
+  "invalid_phone_message": "Must be a valid phone number",
+  "maximum_count_character": "The maximum is only {{count}} characters."
+}
