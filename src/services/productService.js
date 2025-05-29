@@ -63,32 +63,19 @@ const productService = {
     if (!products || !Array.isArray(products)) return [];
     
     return products.map(product => {
-      // If product is already a Product instance, use its properties
-      if (product instanceof Product) {
-        return {
-          id: product.id,
-          title: product.title,
-          images: product.images,
-          originalPrice: product.originalPrice,
-          size: product.size,
-          salePrice: product.salePrice,
-          remainingPrice: product.salePrice || product.originalPrice,
-          discount: product.discount,
-          slug: product.slug
-        };
-      }
+      // Xử lý cả trường hợp dữ liệu từ recommendations và products
+      const baseProduct = product._id ? product : product; // Thêm logic xử lý nếu cần
       
-      // Otherwise, use the old format
       return {
-        id: product._id,
-        title: product.title,
-        images: product.images,
-        originalPrice: product.originalPrice,
-        size: product.size,
-        salePrice: product.salePrice,
-        remainingPrice: product.salePrice || product.originalPrice,
-        discount: productService.calculateDiscount(product.originalPrice, product.salePrice),
-        slug: product.slug
+        id: baseProduct._id || baseProduct.id,
+        title: baseProduct.title,
+        images: baseProduct.images,
+        originalPrice: baseProduct.originalPrice,
+        size: baseProduct.size,
+        salePrice: baseProduct.salePrice,
+        remainingPrice: baseProduct.salePrice || baseProduct.originalPrice,
+        discount: productService.calculateDiscount(baseProduct.originalPrice, baseProduct.salePrice),
+        slug: baseProduct.slug
       };
     });
   }

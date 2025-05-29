@@ -22,6 +22,7 @@ import Breadcrumb, { breadcrumbItems } from "@/components/Navigation/Breadcrumb"
 import { CategoryContent } from '@/components/common/CategoryContent';
 import Head from 'next/head';
 import { useSelector } from 'react-redux';
+import RelatedProducts from '@/components/sections/RelatedProducts';
 
 // Add this function to specify which paths to pre-render
 export async function getStaticPaths() {
@@ -729,6 +730,11 @@ export default function ProductDetailPage({ initialProduct }) {
         <div className="mb-5">
           <CategoryContent categoryName={product.title} />
         </div>
+
+        {/* Thêm RelatedProducts component */}
+        <RelatedProducts 
+          productId={product.id} 
+        />
       </div>
       
       {/* Zoom Modal */}

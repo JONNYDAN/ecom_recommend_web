@@ -33,7 +33,7 @@ export default function Home({ bestCourses, trendingCourses }) {
     }}>
       <IntroductionSection />
       <HotProducts />
-      <AllProducts />      
+      {/* <AllProducts />       */}
       {/* <TopReviews /> */}
       {/* <CustomerFeedbackSection /> */}
       {/* <FashionNews /> */}
