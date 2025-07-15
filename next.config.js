@@ -4,6 +4,10 @@ const { i18n } = require("./next-i18next.config.js");
 const nextConfig = {
   reactStrictMode: true,
   i18n,
+  server: {
+    host: '0.0.0.0',
+    port: 3000,
+  },
   images: {
     remotePatterns: [
       {
